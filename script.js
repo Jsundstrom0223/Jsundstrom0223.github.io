@@ -1,5 +1,5 @@
 function hiThere() {
     alert("Function declared in external JS");
-    let name = document.getElementById("testId").onclick;
-    return `Hi ${name}`;
+    let name = prompt("What's your name?", "Gill");
+    alert(`Hi ${name}`);
 }
