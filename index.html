@@ -6,18 +6,53 @@
         <link rel="stylesheet" href='/static/in.css' />
         <title>Time to Be On Time</title>
     </head>
+
   <body style="background-color:rgb(255, 127, 210);">
-    <h1>Maybe This Time</h1>
     <h2>I'm a little app that will help you get it together and (hopefully) be on time.</h2>
     
-    <h3>We'll go through some questions about your getting-ready process, and then I'll tell you what time you'll need to start getting ready to avoid being late (again).</h3>
+    <h3>We'll go through some questions about your getting-ready process, and then I'll tell you what time 
+      you'll need to start getting ready to avoid being late (again).</h3>
 
-    <input value="Mom click this actual button" onclick="alert('Hello, Mom!')" type="button">
-    <script src="script.js"></script>
-  
-    <input value="You can click this one too" onclick="hiThere()" type="button">
-  </body>
-  
-</html>
+      <input value="Start here" onclick="hiThere()" type="button">
+    
+    <p>Question 1. On average, how long does it take you to get ready?</p>
+        
+        <fieldset>
+            <legend>Be honest!</legend><br>
+            <input type="radio" id="20" name="time" />
+            <label for="20">20 minutes</label><br/><br/>
 
+            <input type="radio" id="30" name="time" />
+            <label for="30">30 minutes</label><br/><br/>
 
+            <input type="radio" id="40" name="time" />
+            <label for="40">40 minutes</label><br/><br/>
+
+            <input type="radio" id="50" name="time" />
+            <label for="50">50 minutes</label><br/><br/>
+
+            <input type="radio" id="60" name="time" />
+            <label for="60">1 hour</label><br/><br/>
+
+            <input type="radio" id="90" name="time" />
+            <label for="6090">1–1.5 hours</label><br/><br/>
+
+            <input type="radio" id="120" name="time" />
+            <label for="90120">1.5–2 hours</label><br/><br/>
+
+             <input type="radio" id="150" name="time" />
+            <label for="90120">2–2.5 hours</label><br/><br/>
+            
+            <input type="submit" onClick="startQuestions()" value="Submit">
+          </fieldset>
+
+       
+        <br>
+        <br>
+       
+      
+    
+    
+    </body>
+    </html>
+    
